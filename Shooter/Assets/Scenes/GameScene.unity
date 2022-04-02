@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1107,9 +1107,8 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1950898050}
-  - {fileID: 641103303}
   - {fileID: 1459476404}
-  - {fileID: 1903319789}
+  - {fileID: 641103303}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3571,7 +3570,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1459476404}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1069240340
 GameObject:
@@ -4859,10 +4858,11 @@ Transform:
   m_LocalPosition: {x: -0.43169785, y: 1.0716729, z: -0.65630436}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
+  - {fileID: 1903319789}
   - {fileID: 1048621397}
   - {fileID: 1802813387}
   m_Father: {fileID: 541982150}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -83.765, y: -93.52, z: -171.966}
 --- !u!1 &1478778796
 GameObject:
@@ -6243,7 +6243,7 @@ Transform:
   - {fileID: 176879253}
   - {fileID: 1625584693}
   m_Father: {fileID: 1459476404}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1814866452
 GameObject:
@@ -6706,12 +6706,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903319788}
-  m_LocalRotation: {x: -0.537056, y: 0.46357894, z: 0.51561886, w: 0.48041934}
-  m_LocalPosition: {x: 6.1399994, y: 0.48000002, z: -64.12}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0.00000013411042, y: 0.000000014901158, z: -0.05852431, w: 0.998286}
+  m_LocalPosition: {x: 31.380468, y: -5.7332597, z: -0.43867302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 541982150}
-  m_RootOrder: 3
+  m_Father: {fileID: 1459476404}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1903319790
 SkinnedMeshRenderer:
@@ -7244,7 +7244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 204519777296610030, guid: 91e6683fdf0be403daf944294ba33ac9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 204519777296610030, guid: 91e6683fdf0be403daf944294ba33ac9, type: 3}
       propertyPath: m_LocalPosition.x
